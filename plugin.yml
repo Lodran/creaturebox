@@ -1,0 +1,7 @@
+name: creaturebox
+main: lodran.creaturebox.creaturebox
+version: 0.1
+
+commands:
+  creaturebox:
+    description: Changes the mob that a mob spawner generates.
