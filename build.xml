@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="creaturebox" default="install" basedir=".">
+	<property name="src" location="src"/>
+	<!-- java source folder -->
+	<property name="bin" location="bin"/>
+	<!-- intermediate build products -->
+	<property name="jars" location="jars"/>
+	<!-- jar files -->
+	<property name="lib" location="lib"/>
+	<!-- local libraries linked against -->
+	<property name="dist" location="dist"/>
+	<!-- build product location -->
+	<property name="resources" location="resources"/>
+	<!-- location of general java resources -->
+	<!-- Our products. JAR, and html -->
+	<property name="jarfile" location="${jars}/${ant.project.name}.jar"/>
+	<property name="html.file" location="${resources}/${ant.project.name}.html"/>
+	<property name="dist.html.file" location="${dist}/${ant.project.name}.html"/>
+	<property name="compile.debug" value="true"/>
+	<!-- All JARs in the lib directory are merged into the final JAR file.  See the "jar" target if you don't want to do that. -->
+	<fileset id="lib.jars" dir="${lib}">
+		<include name="**/*.jar"/>
+	</fileset>
+	<path id="lib.path">
+		<fileset refid="lib.jars"/>
+	</path>
+	<!-- Initialization target, for any prelimary setup needed to build -->
+	<target name="init" description="Preparation">
+		<mkdir dir="${lib}"/>
+		<mkdir dir="${bin}"/>
+		<mkdir dir="${jars}"/>
+	</target>
+	<!-- source and target below, may need to be adjusted based on what version of Java is being used -->
+	<target name="compile" depends="init" description="Compile code">
+		<javac srcdir="${src}" destdir="${bin}"               source="1.5" target="1.5"               includeAntRuntime="no"               classpathref="lib.path"               debug="${compile.debug}">        </javac>
+	</target>
+	<target name="jar" depends="compile" description="Build jar">
+  <delete file="${bin}/plugin.yml"/>
+  <copy tofile="${bin}/plugin.yml" file="plugin.yml"/>
+		<jar jarfile="${jarfile}"             basedir="${bin}"             manifest="${resources}/Manifest">
+			<!-- Merge library jars into final jar file -->
+			<!-- zipgroupfileset refid="lib.jars"/ -->
+			</jar>
+	</target>
+	<target name="install" depends="jar" description="Put all the pieces together in the dist directory">
+		<mkdir dir="${dist}"/>
+		<!-- Copy jars -->
+		<copy toDir="${dist}">
+			<fileset dir="${jars}">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+		<!-- Copy the HTML -->
+		<copy file="${html.file}" todir="${dist}"/>
+	</target>
+	<target name="run" depends="install" description="Run applet in preferred browser">
+		<!-- Use the exec task to open the HTML file -->
+		<exec dir="${dist}" executable="/usr/bin/open" os="Mac OS X">
+			<arg value="${dist.html.file}"/>
+		</exec>
+	</target>
+	<target name="clean" description="Remove build and dist directories">
+		<delete>
+			<fileset dir="${bin}"  followsymlinks="no"/>
+			<fileset dir="${jars}" followsymlinks="no"/>
+			<fileset dir="${dist}" followsymlinks="no"/>
+		</delete>
+	</target>
+</project>

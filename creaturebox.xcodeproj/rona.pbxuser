@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D28A88AD04BDD90700651E21 /* monsterbox */;
+		addToTargets = (
+		);
+		codeSenseManager = E4CFD7E1130F7F4500656E0A /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1429,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					670,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320802643;
+			PBXWorkspaceStateSaveDate = 320802643;
+		};
+		perUserProjectItems = {
+			E42291DE131F14B8000C07B9 /* PBXTextBookmark */ = E42291DE131F14B8000C07B9 /* PBXTextBookmark */;
+			E42291DF131F14B8000C07B9 /* PBXTextBookmark */ = E42291DF131F14B8000C07B9 /* PBXTextBookmark */;
+			E4874A84131D94F200809C4F = E4874A84131D94F200809C4F /* PBXTextBookmark */;
+			E4CFD898130FA35A00656E0A = E4CFD898130FA35A00656E0A /* PBXTextBookmark */;
+			E4EAAFE5131F042500321962 = E4EAAFE5131F042500321962 /* PBXTextBookmark */;
+			E4EAAFE6131F042500321962 = E4EAAFE6131F042500321962 /* PBXTextBookmark */;
+			E4EAAFE8131F042500321962 = E4EAAFE8131F042500321962 /* PBXTextBookmark */;
+			E4EAAFE9131F042500321962 = E4EAAFE9131F042500321962 /* PBXTextBookmark */;
+			E4EAAFEA131F042500321962 = E4EAAFEA131F042500321962 /* PBXTextBookmark */;
+			E4EAAFEB131F042500321962 = E4EAAFEB131F042500321962 /* PBXTextBookmark */;
+			E4EAAFF5131F05B100321962 = E4EAAFF5131F05B100321962 /* PBXTextBookmark */;
+			E4EAAFFE131F05F300321962 = E4EAAFFE131F05F300321962 /* PBXTextBookmark */;
+			E4EAB000131F05F300321962 = E4EAB000131F05F300321962 /* PBXTextBookmark */;
+			E4EAB002131F0EEB00321962 = E4EAB002131F0EEB00321962 /* PBXTextBookmark */;
+			E4EAB003131F0EEB00321962 = E4EAB003131F0EEB00321962 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E4CFD7E0130F7F4500656E0A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D28A88AD04BDD90700651E21 /* monsterbox */ = {
+		activeExec = 0;
+	};
+	E4048AD9131D8F530003F372 /* creaturebox.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1607, 6150}}";
+			sepNavSelRange = "{1248, 499}";
+			sepNavVisRange = "{753, 1273}";
+			sepNavWindowFrame = "{{195, 4}, {1955, 1399}}";
+		};
+	};
+	E4048ADA131D8F530003F372 /* creatureboxBlockListener.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1448.63, 3875}}";
+			sepNavSelRange = "{4526, 24}";
+			sepNavVisRange = "{4267, 474}";
+			sepNavWindowFrame = "{{875, 24}, {1415, 1375}}";
+		};
+	};
+	E4048ADB131D8F530003F372 /* creatureboxPlayerListener.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1607, 935}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 613}";
+		};
+	};
+	E42291D8131F0F7E000C07B9 /* README */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3900.63, 931}}";
+			sepNavSelRange = "{1196, 0}";
+			sepNavVisRange = "{0, 1196}";
+		};
+	};
+	E42291DE131F14B8000C07B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048ADA131D8F530003F372 /* creatureboxBlockListener.java */;
+		rLen = 4;
+		rLoc = 3375;
+		rType = 0;
+	};
+	E42291DF131F14B8000C07B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048ADA131D8F530003F372 /* creatureboxBlockListener.java */;
+		name = "creatureboxBlockListener.java: 135";
+		rLen = 24;
+		rLoc = 4526;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 4267;
+	};
+	E4874A84131D94F200809C4F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4874A85131D94F200809C4F /* README */;
+		name = "README: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	E4874A85131D94F200809C4F /* README */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = README;
+		path = "/Users/rona/Desktop/Pezmc-Bukkit-Plugin-Generator/README";
+		sourceTree = "<absolute>";
+	};
+	E4CFD7E0130F7F4500656E0A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E4CFD7E1130F7F4500656E0A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E4CFD805130F815700656E0A /* build.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2323.58, 1750}}";
+			sepNavSelRange = "{1511, 0}";
+			sepNavVisRange = "{868, 1714}";
+			sepNavWindowFrame = "{{15, 38}, {1415, 1375}}";
+		};
+	};
+	E4CFD863130F89FF00656E0A /* plugin.yml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {748, 1038}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRange = "{0, 157}";
+		};
+	};
+	E4CFD898130FA35A00656E0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4CFD899130FA35A00656E0A /* xmlindent.xml */;
+		name = "xmlindent.xml: 1";
+		rLen = 2870;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1997;
+		vrLoc = 0;
+	};
+	E4CFD899130FA35A00656E0A /* xmlindent.xml */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = xmlindent.xml;
+		path = /Users/rona/Downloads/xmlindent.xml;
+		sourceTree = "<absolute>";
+	};
+	E4EAAEC6131E080C00321962 /* creaturebox.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876.141, 1038}}";
+			sepNavSelRange = "{65, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	E4EAAEC7131E080C00321962 /* Manifest */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1607, 931}}";
+			sepNavSelRange = "{12, 0}";
+			sepNavVisRange = "{0, 24}";
+		};
+	};
+	E4EAAFE5131F042500321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4EAAEC6131E080C00321962 /* creaturebox.html */;
+		name = "creaturebox.html: 5";
+		rLen = 0;
+		rLoc = 65;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	E4EAAFE6131F042500321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4EAAFE7131F042500321962 /* MANIFEST.MF */;
+		name = "MANIFEST.MF: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	E4EAAFE7131F042500321962 /* MANIFEST.MF */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file;
+		name = MANIFEST.MF;
+		path = "/Users/rona/Desktop/Pezmc-Bukkit-Plugin-Generator/creaturebox/dist/creaturebox/META-INF/MANIFEST.MF";
+		sourceTree = "<absolute>";
+	};
+	E4EAAFE8131F042500321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4EAAEC7131E080C00321962 /* Manifest */;
+		name = "Manifest: 1";
+		rLen = 0;
+		rLoc = 12;
+		rType = 0;
+		vrLen = 24;
+		vrLoc = 0;
+	};
+	E4EAAFE9131F042500321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4CFD863130F89FF00656E0A /* plugin.yml */;
+		name = "plugin.yml: 8";
+		rLen = 0;
+		rLoc = 157;
+		rType = 0;
+		vrLen = 157;
+		vrLoc = 0;
+	};
+	E4EAAFEA131F042500321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4CFD805130F815700656E0A /* build.xml */;
+		name = "build.xml: 35";
+		rLen = 0;
+		rLoc = 1511;
+		rType = 0;
+		vrLen = 1684;
+		vrLoc = 1257;
+	};
+	E4EAAFEB131F042500321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048ADB131D8F530003F372 /* creatureboxPlayerListener.java */;
+		name = "creatureboxPlayerListener.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	E4EAAFF5131F05B100321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048ADA131D8F530003F372 /* creatureboxBlockListener.java */;
+		name = "creatureboxBlockListener.java: 32";
+		rLen = 0;
+		rLoc = 1057;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 1857;
+	};
+	E4EAAFFE131F05F300321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048AD9131D8F530003F372 /* creaturebox.java */;
+		name = "creaturebox.java: 21";
+		rLen = 30;
+		rLoc = 671;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 0;
+	};
+	E4EAB000131F05F300321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048ADA131D8F530003F372 /* creatureboxBlockListener.java */;
+		name = "creatureboxBlockListener.java: 149";
+		rLen = 0;
+		rLoc = 4999;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 3372;
+	};
+	E4EAB002131F0EEB00321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048AD9131D8F530003F372 /* creaturebox.java */;
+		name = "creaturebox.java: 21";
+		rLen = 30;
+		rLoc = 671;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 0;
+	};
+	E4EAB003131F0EEB00321962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4048ADA131D8F530003F372 /* creatureboxBlockListener.java */;
+		name = "creatureboxBlockListener.java: 23";
+		rLen = 0;
+		rLoc = 826;
+		rType = 0;
+		vrLen = 1758;
+		vrLoc = 0;
+	};
+}
